@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    background-image: url(images/Слой2.png );
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.text {
+    text-align: center;
+    margin-left: 150px;
+}
+.priceh3 {
+    background-color: red;
+    color: white;
+}
+.priceh1 {
+    color: red;
+    font-size: 50px;
+}
+.price {
+    text-align: center;
+    max-width: 210px;
+}
+.priceh4 {
+    opacity: 50%;
+}
+.pics {
+    display: flex;
+    gap: 150px;
+}
+.pic1 {
+    text-align: center;
+}
+.text2 {
+    text-align: center;
+    padding-top: 30px;
+}
+.f {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    gap: 40px;
+}
+.f div h4 {
+    color: red;
+}
+.color {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+.f1 {
+    border: 2px solid black;
+    padding: 30px;
+}
+.size {
+    background-color: rgba(128, 128, 128, 0.459);
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    opacity: 80%;
+}
+.win {
+    background-color: red;
+    margin-top: 100px;
+    color: white;
+    padding: 20px;
+    background-image: url(images/Крутоефото.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    box-shadow: 0px 0px 15px black;
+}
+.winh2 {
+    color: yellow;
+    width: 300px;
+}
+.winh4 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: normal;
+}
+.winh4_2 {
+    width: 650px;
+    padding-top: 10px;
+    font-weight: normal;
+}
+.help {
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    border: 3px solid black;
+    transition: 1s;
+    opacity: 15%;
+}
+.help:hover {
+    transition: 1s;
+    opacity: 1;
+}
+.conect {
+    width: 400px;
+    padding: 25px;
+    margin-top: 100px;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.input1 {
+    font-size: larger;
+}
+.input1 input {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+.conect h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.pay-online {
+    color: green;
+    margin-bottom: 30px;
+}
+.order-button {
+    background-color: rgb(21, 150, 21);
+    padding: 10px;
+    border-color: black;
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+}

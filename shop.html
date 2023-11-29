@@ -4,14 +4,22 @@
     <meta charset='utf-8'>
     <title>Page Title</title>
     <link rel='stylesheet' type='text/css' media='screen' href='shop.css'>
-    <script src="shop.js"></script>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <script src="wow.min.js"></script>
     <script>new WOW().init();</script>
 </head>
 <body>
+    <div class="window1" id="modal">
+        <div class="windows">
+            <div class="window">
+                <P>Информация о доставке футболок</P><P class="cross">&times;</P>
+            </div>
+            <div class="window2">
+                <h3>Доставка круглосуточная в пределах МКАД<p>Минимальный заказ - 500р</p><p>Телефон службы доставки - </p></h3>
+            </div>
+        </div>
+    </div>
     <header>
         <div class="help">
             <img src="images/tp.png" height="100px" width="100px" onclick="print_contact()">
@@ -59,7 +67,7 @@
                 <option>M</option>
                 <option>L</option>
             </select>
-            <button class="color" onmouseover="prompt('Докажите что вы человек 2+2*2')">Добавить в заказ</button>
+            <button class="color" id="prove" onclick="prove()">Добавить в заказ</button>
         </div>
         <div class="f1">
             <img src="images/image2.png " width="300px" height="300px">
@@ -143,7 +151,7 @@
             <label class="input1"><p>Почта</p><input placeholder="zabanilivdota2ura@gmail.com"></label>
             <label class="input1"><p>Телефон</p><input placeholder="88005553535"></label>
             <h4 class="pay-online">Оплата онлайн</h4>
-            <button class="order-button">Перейти к заказу</button>
+            <button class="order-button" onclick="modal()" type="button">Перейти к заказу</button>
         </fieldset>
         </form>
     </div>
@@ -151,4 +159,5 @@
     
     </main>
 </body>
+<script src="shop.js"></script>
 </html>

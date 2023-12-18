@@ -40,15 +40,47 @@ function prove () {
         window.close ()
     }
 }
+// function modal () {
+//     let a = document.getElementById ("modal")
+//     //проверка свойства display
+//     if ( window.getComputedStyle(a).display == "none")
+//     {
+//         a.style.display = "flex"
+//     }
+//     else
+//     {
+//         a.style.display = "none"
+//     }
+// }
+
 function modal () {
     let a = document.getElementById ("modal")
-    //проверка свойства display
-    if ( window.getComputedStyle(a).display == "none")
-    {
-        a.style.display = "flex"
-    }
-    else
-    {
-        a.style.display = "none"
+    a.classList.toggle("window1_2")
+    let b = document.getElementById ("modal1")
+    b.classList.toggle("windows_1")
+}
+
+
+function knopochka2 () {
+    let c = ['button01', 'button02', 'button03', 'button04',  'button05', 'button06', 'prove', 'color']
+    for (let d=0; d< c.length; d++){
+        let e = document.getElementById (c[d])
+        e.classList.toggle ("knopochki")
+    //     if ( window.getComputedStyle(e).backgroundColor == "rgb(255, 0, 0)")
+    //     {
+    //     e.style.backgroundColor = "green";
+    //     e.style.color = "black"
+    //     e.style.borderRadius = "0"
+    //     e.style.boxShadow = "5px 5px 10px green"
+    //     e.style.padding = "30px"
+    // }
+    // else
+    // {
+    //     e.style.backgroundColor = "red";
+    //     e.style.color = "white"
+    //     e.style.borderRadius = "5px"
+    //     e.style.boxShadow = "5px 5px 10px black"
+    //     e.style.padding = "5px" 
+    // }
     }
 }

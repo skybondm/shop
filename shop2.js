@@ -51,4 +51,15 @@ function zvezdochka2 (z) {
         }
     }
     }
+  
     
+function bann() {
+    let a = document.getElementById ("greybackground")
+    a.classList.toggle("background2_0")
+    let b = document.getElementById ("ban")
+    b.classList.toggle("socialcredit2_0")
+}    
+
+function back() {
+    window.location.href="index.html"
+}

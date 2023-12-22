@@ -7,7 +7,15 @@
     <script src="shop2.js"></script>
 </head>
 <body>
+    <div class="background" id="greybackground">
+        <div class="socialcredit" id="ban">
+            <img src="images/social credit.png" width="100%" height="100%">
+        </div>
+    </div>    
     <header>
+        <div class="back">
+        <img src="images/icons8-стрелка-30.png" width="40px" height="40px" onclick="back()">
+        </div>
         <h1 class="order">Ваш заказ</h1>
         <div class="info">
             <h5>Этикетки и модели футболок могут незначительно отличаться друг от друга в заказе</h5>
@@ -15,17 +23,15 @@
         <h5 class="info2">В корзине пусто!</h5>
 
         <div class="stars">
-            <img src="images/star_2.png" width="50px" height="50px" id="zvezda01" onclick="zvezdochka2(0)">
-            <img src="images/star_2.png" width="50px" height="50px" id="zvezda02" onclick="zvezdochka2(1)">
-            <img src="images/star_2.png" width="50px" height="50px" id="zvezda03" onclick="zvezdochka2(2)">
+            <img src="images/star_2.png" width="50px" height="50px" id="zvezda01" onclick="bann(); zvezdochka2(0)";>
+            <img src="images/star_2.png" width="50px" height="50px" id="zvezda02" onclick="zvezdochka2(1); bann()">
+            <img src="images/star_2.png" width="50px" height="50px" id="zvezda03" onclick="zvezdochka2(2); bann()">
             <img src="images/star_2.png" width="50px" height="50px" id="zvezda04" onclick="zvezdochka2(3)">
             <img src="images/star_2.png" width="50px" height="50px" id="zvezda05" onclick="zvezdochka2(4)">
         </div>
         <div class="rate">
             <h5>Оцените наш сайт!</h5>
         </div>
-
-        <button onclick="knopochka()">кнопочка</button>
     </header>
 </body>
 </html>
